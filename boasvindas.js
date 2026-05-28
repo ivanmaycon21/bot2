@@ -102,4 +102,4 @@ client.on(Events.GuildMemberAdd, async member => {
 });
 
 // LOGIN
-client.login(TOKEN);
+client.login(process.env.TOKEN);
